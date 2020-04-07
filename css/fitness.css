@@ -13,7 +13,7 @@ font-family: 'Roboto', sans-serif;*/
 .cover {
 	width: 100%;
 	height: 720px;
-	position: absolute;
+	position: relative;
 	object-fit: cover;
 
 }
@@ -88,11 +88,12 @@ nav{
 
 .explore{
 	position: relative;
-	top: 850px;
 	text-align: center;
-
+	margin-top: 100px;
 
 }
+
+
 
 .red{
 	color: #A60000;
@@ -111,19 +112,23 @@ nav{
 	font-size: 20px;
 	padding-left: 25%;
     padding-right: 25%;
+    margin: 100px 0;
 
 }
 
 .overview{
 	position: relative;
-	top: 900px;
 	background: #E5CD4D;
 	text-align: center;
 	width: 100%;
 	height: 78px;
-	margin: 70px 0 100px;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
 
+.top{
+	position: absolute;
+	right: 0;
+	margin-top: 10px;
 }
 
 .overview li{
@@ -240,13 +245,7 @@ button.close{
 	display: block;
 }
 
-a .top{
-	position: absolute;
-	top: 1270px;
-	right: 10px;
-	color: black;
-	
-}
+
 
 a.link{
 	color: #A60000;
@@ -255,9 +254,8 @@ a.link{
 
 footer{
 	font-family: roboto, sans-serif;
-	position: relative;
-	top: 925px;
 	text-align: center;
+	margin-top: 100px;	
 
 }
 
