@@ -55,7 +55,12 @@ nav{
 
 .right{
 	float: right;
-	padding-right: 10px;
+	background-color: #5A9DEB;
+	border-radius: 30px;
+	width: 89px;
+	padding: 5px 0;
+	margin-right: 10px;
+	margin-top: -4px;
 }
 
 .train{
@@ -134,3 +139,107 @@ nav{
 	padding: 25px 0;
 }
 
+footer{
+	position: relative;
+	top: 1500px;
+	text-align: center;
+}
+
+.popup{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.popup .blanket{
+	background-color: rgba(0,0,0,.7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.popup .content{
+	box-sizing: border-box;
+	padding: 30px 40px;
+	width: 550px;
+	height: 540px;
+	background-color: white;
+	line-height: 50px;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -270px;
+	margin-left: -275px;
+	text-align: center;
+	
+}
+
+.popup .item input{
+	text-align: center;
+}
+
+.popup .item input[type='text']{
+	font-size: 20px;
+	border: 2px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 268px;
+	
+}
+
+.popup .item label{
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 40px;
+
+
+}
+
+.popup .content p{
+	font-size: 36px;
+	font-weight: bold;
+	margin: 15px 0;
+
+}
+
+.ga{
+	color: #A60000;
+}
+
+a.ctaalt,
+button.ctaalt{
+	background: #5A9DEB;
+	color: white;
+	width: 272px;
+	height: 61px;
+	font-size: 32px;
+	font-family: roboto Condensed, sans-serif;
+	margin-top: 45px;
+	border: 5px solid rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+
+}
+
+button.close{
+	background: #ffffff url(../img/close.png) no-repeat center center;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: none;
+	overflow: hidden;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+.popup.show{
+	display: block;
+}
